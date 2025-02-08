@@ -31,10 +31,6 @@ sns.set(font='SimHei',style='ticks')
 '''
 赌狗特征
 '''
-plt.figure(figsize=[4,6])
-sns.countplot(data = pd.DataFrame(gamb_data.loc['赌博人学历',:]),
-             y = '赌博人学历')
-# plt.xticks(rotation=90)
 
 
 for feature in gamb_data.index[1:]:
@@ -45,6 +41,8 @@ for feature in gamb_data.index[1:]:
     sns.countplot(data = tmp,
                 y = feature)
     plt.title(feature)
+    # plt.title('赌狗学历分布')
+    # plt.savefig(f'media/academic_level.png',bbox_inches='tight',facecolor='w')
     plt.show()
 
 

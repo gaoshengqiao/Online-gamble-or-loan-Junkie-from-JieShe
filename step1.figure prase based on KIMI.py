@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import os
 client = OpenAI(
-    api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", #PS:自己申请API去!!
     base_url = "https://api.moonshot.cn/v1",
 )
 

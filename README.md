@@ -39,8 +39,8 @@
 参见脚本step1.figure prase based on KIMI.py
 
 ### 分析：
-瞎几把分析,参见脚本step2.data cleaning and plot.py
-e.g.
+瞎几把分析, "Gambling_features.csv"文件为赌狗的行为特征，"Figure_contents.csv"为赌狗和撸贷狗的性别及欠款统计。
+参见脚本step2.data cleaning and plot.py
 ![赌狗学历](media/academic_level.png)
 
 
@@ -85,4 +85,5 @@ Using the Json mode of GPT model KIMI, the following features are extracted for 
 See script step1.figure prase based on KIMI.py
 
 ### Analysis:
-For some analysis, see the script step2.data cleaning and plot.py
+After a few analyses, the "Gambling_features.csv" file is the behavioral characteristics of gambling dogs, and the "Figure_contents.csv" is the gender and debt statistics of gambling dogs and loan dogs.
+See the script step2.data cleaning and plot.py
